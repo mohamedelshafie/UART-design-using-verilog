@@ -1,5 +1,5 @@
 # UART-design-using-verilog
-First for the UART_TX, the modules are:
+# First for the UART_TX, the modules are:
   ## 1- Serializer: 
 		Used to convert the data from parallel to serial.
 		Inputs: data bus, enable signal, clock signal and reset signal. 
@@ -20,3 +20,5 @@ First for the UART_TX, the modules are:
 	 	The parity enable signal is used to configure the frame weather it will contain parity bit or not.
 	 	The busy signal is an output from the UART_TX which indicates that it is transmitting data.
 	 	The multiplexer select line signal is used to organize the frame.
+![image](https://github.com/mohamedelshafie/UART-design-using-verilog/assets/72891326/6838a222-1178-4e3a-8d44-f92ffe6a47cf)
+# Second for the UART_RX, the modules are:
