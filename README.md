@@ -1,6 +1,6 @@
 # UART-design-using-verilog
 First for the UART_TX, the modules are:
-  1- Serializer: 
+  #1- Serializer: 
 		Used to convert the data from parallel to serial.
 		Inputs: data bus, enable signal, clock signal and reset signal. 
 		Outputs: serial data line and serializer done signal.
