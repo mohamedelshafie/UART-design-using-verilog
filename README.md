@@ -21,4 +21,13 @@
 	 	The busy signal is an output from the UART_TX which indicates that it is transmitting data.
 	 	The multiplexer select line signal is used to organize the frame.
 ![image](https://github.com/mohamedelshafie/UART-design-using-verilog/assets/72891326/6838a222-1178-4e3a-8d44-f92ffe6a47cf)
+  ## Results:
+  ### Transmitting one frame with odd parity:
+![uart testbench with odd parity](https://github.com/mohamedelshafie/UART-design-using-verilog/assets/72891326/95e07200-ae1e-4597-8ccb-294a60e6b72d)
+
+  ### Transmitting one frame with even parity:
+  ![uart testbench with even parity](https://github.com/mohamedelshafie/UART-design-using-verilog/assets/72891326/6981e706-8dfe-4e04-b061-df86a0c557f4)
+  ### Transmitting one frame with no parity:
+  ![uart testbench with no parity](https://github.com/mohamedelshafie/UART-design-using-verilog/assets/72891326/8ab063fe-17dc-4488-9309-2df60c7c94bf)
+
 # Second for the UART_RX, the modules are:
